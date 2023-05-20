@@ -3,17 +3,16 @@ package com.ConditionalOperators;
 public class ConditionalOperator {
 	public static void main(String[] args) {
 
-//		int a= 10;
-//		int b =10;
+//		int a = 10;
+//		int b = 10;
 //		int c=10;
 //		System.out.println(a);
 //		System.out.println(b);
 //		System.out.println(c);
-		
-		
+
 //		it will not take the value like a1=10,b1=10;
 //		for all the variable it will take int as a datatype;
-		
+
 //		int a1,b1,c1=10;
 //		a1=100;//here i have instailize the  veriable value as a1 =100;
 //		System.out.println(c1);
@@ -84,8 +83,36 @@ public class ConditionalOperator {
 //		}if(a!=c) {
 //			System.out.println("toni");
 //		}
+//		if (a != 10) {//a is not equal
+//			System.out.println("a is not  equal 10");
+//		}else {
+//		System.out.println("a is  equal to 11");
+//		}
 
-//		
+		// And operator
+//		if (a<b && a==b) {
+//			System.out.println("condition is TRUE");
+//		}else {
+//			System.out.println("Condition is FALSE");
+//		}
+		// false And true
+
+		/*
+		 * if (!(a < b) && a == b) { System.out.println("condition is TRUE"); } else {
+		 * System.out.println("Condition is FALSE"); }
+		 */
+		
+		
+		int boyAge=21;
+		int girlAge=18;
+		
+		if( boyAge>=21 && girlAge>=18) {
+			System.out.println("  eligible to get married");
+		}else {
+			System.out.println("  not eligible to get married");
+		}
+		
+
 	}
 
 }

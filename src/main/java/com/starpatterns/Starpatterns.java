@@ -31,7 +31,8 @@ public class Starpatterns {
 	public void Loop() {
 		for(int i=0;i<=5;i++) {
 			for(int j=i+1;j>=1;j--) {
-				if((i>=5))
+				if((i<=3))
+					continue;
 			System.out.print("*");
 		}
 			System.out.println(" ");
@@ -97,7 +98,7 @@ public class Starpatterns {
 
 	public static void main(String[] args) {
 		Starpatterns pattern = new Starpatterns();
-		pattern.printStars();
+		pattern.Loop();
 	}
 
 }
